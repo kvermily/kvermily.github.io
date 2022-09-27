@@ -1,0 +1,25 @@
+/* comment here */
+
+body{
+    background-color: bisque;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+figcaption{
+    font-size: .8em;
+}
+.gallery {
+    color:lightseagreen;
+}
+#summary{
+    font-family:'Courier New', Courier, monospace;
+    color:blue;
+}
+.working{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.test{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
