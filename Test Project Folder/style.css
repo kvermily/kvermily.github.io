@@ -2,7 +2,7 @@
 
 p {
     border-color:blue;
-    border-style: solid;
+    border-style: dotted;
     padding-top: 40px;
 }
 body{
@@ -10,6 +10,8 @@ body{
 }
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 30%; 
+    margin: auto;
 }
 figcaption{
     font-size: .8em;
