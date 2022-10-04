@@ -1,5 +1,10 @@
 /* comment here */
 
+p {
+    border-color:blue;
+    border-style: solid;
+    padding-top: 40px;
+}
 body{
     background-color: bisque;
 }
