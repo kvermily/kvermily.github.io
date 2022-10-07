@@ -1,7 +1,11 @@
 /* comment here */
 
+label {
+    font-family: "Fira Sans", sans-serif;
+}
+
 footer{
     text-decoration-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:blue;
+    background-color:aquamarine;
 }
