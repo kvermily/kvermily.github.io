@@ -4,6 +4,18 @@ label {
     font-family: "Fira Sans", sans-serif;
 }
 
+.header {
+    overflow: hidden;
+    background-color: #E4D4C8;
+    padding: 20px 10px;
+}
+
+.logo {
+    font-family: cursive;
+    font-size: large;
+    text-align: left;
+    padding-left: 10px;
+}
 
 * {
     box-sizing: border-box;
