@@ -7,6 +7,7 @@ label {
 
 * {
     box-sizing: border-box;
+    background-color: #A47786;
   }
   body {
     margin: 30px;
@@ -40,7 +41,7 @@ label {
   button {
     width: 100px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #533440;
     color: white;
     border: none;
     padding: 10px;
