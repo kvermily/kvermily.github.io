@@ -24,14 +24,15 @@
         </section>
         <div>
         <form>
-            <label for="austen-picker">Choose your novel:</label>
-        <input list="austen-novels" id="austen-picker" name="austen-picker">
-
-        <datalist id="austen-novels">
-            <option value="Pride and Prejudice">
-            <option value="Sense and Sensibility">
-            <option value="Persuassion">
-        </datalist>
+    <div class="austen-novels">
+      <label>Choose Your Novel:</label>
+      <select name="austen-novels" id="austen-novels" required="required">
+        <option value="" selected="selected">Select country</option>
+        <option value="pride-and-prejudice">Pride & Prejudice</option>
+        <option value="sense-and-sensibility">Sense & Sensibility</option>
+        <option value="Persuasion">Persuasion</option>
+      </select>
+    </div>
         <div class="submit-group">
             <button type="submit">Make a Date</button>
           </div>
