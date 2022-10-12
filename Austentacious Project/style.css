@@ -1,23 +1,49 @@
-/* comment here */
-
-label {
-    font-family: "noto san", sans-serif;
-}
-/*header*/
+/* header */
 header{
-  overflow: hidden;
-  color: #EAE5E2;
   background-color: #577381;
-  padding: 20px 10px;
+  color: #e6e6e6;
+  padding-inline-start: 10px;
+  margin-top:-33px;
 }
-/*body*/
-body{
-  background-image: url("landing_page_bkgd.svg");
+.header-right{
+  text-align: right;
+  padding-inline-end: 10px;
+  vertical-align: middle;
+  margin-top: -50px;
 }
 
-/*footer*/
+/* body */
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:0;
+  padding:0;
+  border:0;
+  background-color: #577381;
+}
+/* headings */
+h1{
+  font-size: 36pt;
+  font-family: serif}
+h2{
+  font-size: 36pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* selector */
+.selector{
+  background-color: #e6e6e6;
+  padding-inline-start: 50%;
+  padding-left: 50%;
+  border-style: dashed;
+}
+/* footer */
 footer{
     color: #EAE5E2;
-    font-family: comic Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #577381;
+    padding-inline-start: 10px;
+    align-items: center;
+}
+.footer-right{
+  text-align: right;
+  padding-inline-end: 10px;
 }
