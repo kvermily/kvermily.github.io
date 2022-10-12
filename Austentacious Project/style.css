@@ -3,47 +3,6 @@
 label {
     font-family: "noto san", sans-serif;
 }
-
-/*NEEDS REVIEW*/
-* {
-    box-sizing: border-box;
-  }
-  form {
-    border: 1px solid #333;
-    padding: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-    border-radius: 5px;
-  }
-  .input-group {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  label {
-    width: 100px;
-  }
-  input,
-  select,
-  textarea {
-    flex: 1;
-    padding: 3px 5px;
-  }
-  .submit-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  button {
-    width: 100px;
-    margin: 0 auto;
-    background-color: #533440;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
 /*header*/
 header{
   overflow: hidden;
