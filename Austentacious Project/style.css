@@ -1,14 +1,15 @@
 /* comment here */
-
-label {
-    font-family: "Fira Sans", sans-serif;
+body {
+  background-image: url("https://drive.google.com/file/d/1zDIJq0e6AVqD7FzCL5m0_Ep5lUTQHaV1/view?usp=sharing")
 }
 
+label {
+    font-family: "noto san", sans-serif;
+}
+
+/*NEEDS REVIEW*/
 * {
     box-sizing: border-box;
-  }
-  body {
-    margin: 30px;
   }
   form {
     border: 1px solid #333;
@@ -46,9 +47,16 @@ label {
     cursor: pointer;
     border-radius: 5px;
   }
-  
-
+/*header*/
+header{
+  overflow: hidden;
+  color: #EAE5E2;
+  background-color: #577381;
+  padding: 20px 10px;
+}
+  /*footer*/
 footer{
+    color: #EAE5E2;
     font-family: comic Arial, Helvetica, sans-serif;
-    background-color:#9DB6CC;
+    background-color: #577381;
 }

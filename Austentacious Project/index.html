@@ -2,32 +2,33 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width , initial-scale-1">
-        <link rel="stylesheet" href="style.css">
+	    <meta name="viewport" content="width=device-width , initial-scale="1.0">
+        <link href="style.css" rel="stylesheet">
 	    <meta name="test" content="testing">
         <title>Austentacious</title>     
     </head>
     <body>
-        <section>
-            <p>Find your next Austen-inspired read.</p>
+        <header>
+            <h1>Austentacious</h1>
+        <div class="header-right">
+            <a href="http://www.miro.com">About</a>
+        </div>    
+        </header>
+        <div class="selector">
+            <h2>Find your next Austen-inspired read.</h2>
         </section>
-        <section>
-            <h2>How It Works</h2>
                 <ol>
-                    <li>Select your Jane Austen from the list below.</li>
-                    <li>Click the "Make a Date" button.</li>
-                    <li>Start reading!</li>
+                    <li>Select your Austen novel from the list.</li>
+                    <li>Click the "Meet Your Match" button.</li>
+                    <li>Get paired with your next read.</li>
                 </ol>
-        </section>
-        <form>
-    <div class="austen-novels">
-      <label>Choose Your Novel:</label>
-      <select name="austen-novels" id="austen-novels" required="required">
-        <option value="" selected="selected">Select</option>
-        <option value="pride-and-prejudice">Pride & Prejudice</option>
-        <option value="sense-and-sensibility">Sense & Sensibility</option>
-        <option value="Persuasion">Persuasion</option>
-      </select>
+    <form>    
+        <select name="austen-novels" id="austen-novels" required="required">
+            <option value="" selected="selected">Choose Your Novel</option>
+            <option value="pride-and-prejudice">Pride & Prejudice</option>
+            <option value="sense-and-sensibility">Sense & Sensibility</option>
+            <option value="Persuasion">Persuasion</option>
+        </select>
     </div>
     <div class="submit-group">
             <button type="submit">Make a Date</button>
