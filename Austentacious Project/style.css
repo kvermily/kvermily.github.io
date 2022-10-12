@@ -1,7 +1,4 @@
 /* comment here */
-body {
-  background-image: url("https://drive.google.com/file/d/1zDIJq0e6AVqD7FzCL5m0_Ep5lUTQHaV1/view?usp=sharing")
-}
 
 label {
     font-family: "noto san", sans-serif;
@@ -54,7 +51,12 @@ header{
   background-color: #577381;
   padding: 20px 10px;
 }
-  /*footer*/
+/*body*/
+body{
+  background-image: url("landing_page_bkgd.svg");
+}
+
+/*footer*/
 footer{
     color: #EAE5E2;
     font-family: comic Arial, Helvetica, sans-serif;
