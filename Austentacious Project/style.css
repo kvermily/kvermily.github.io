@@ -1,6 +1,6 @@
 /* header */
 header{
-  background-color: #000
+  background-color: #577381;
   color: #e6e6e6;
   padding-inline-start: 10px;
   margin-top:-33px;
@@ -8,8 +8,6 @@ header{
 .header-right{
   text-align: right;
   padding-inline-end: 10px;
-  vertical-align: middle;
-  margin-top: -50px;
 }
 
 /* body */
@@ -28,22 +26,26 @@ h2{
   font-size: 36pt;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-/* selector */
-.selector{
-  background-color: #e6e6e6;
-  padding-inline-start: 50%;
-  padding-left: 50%;
-  border-style: dashed;
+/* container */
+.container{
+  background-color: rgba(230,230,230,.9);
+  width: 30%;
+  margin-right: 15%;
+  margin-left: 60%;
 }
+/* submit group*/
+.submit-group{
+  margin: auto;
+}
+
 /* footer */
 footer{
     color: #EAE5E2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #577381;
     padding-inline-start: 10px;
-    align-items: center;
 }
-.footer-right{
+    .footer-right{
   text-align: right;
   padding-inline-end: 10px;
 }
