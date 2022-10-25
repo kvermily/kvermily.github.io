@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page Tutorial</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h3>I am an interactive web page</h3>
+
+    <!-- put this in a <div> with a class so can manipulate it-->
+    <div>
+
+      <p id="color-text">I am some text on the page. Lots of possibilities here.</p>
+     
+    </div>
+
+    <button id="color-btn-1" onclick="myColorChange1()">Click for magenta!</button>
+    <button id="color-btn-2" onclick="myColorChange2()">Click for blue!</button>
+
+    <!-- STEP 1 - make your button -->
+    <!-- give it an ID with unique naming
+    later we will add "onClick" here to make it active -->
+  
+
+
+    <!-- STEP 2 - make a new interactive button to change text color -->
+    <!-- remember a unique ID is required -->
+    <!-- after you define your function in JS, add that exact function name to the onClick here -->
+
+    <button id="message-btn" onclick="myClick()">
+      Click to Say Hi!
+    </button>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- using div tags to organize things -->
+
+    <h3>I am interested in pets </h3>
+    <div id="name-label">
+      Enter your pet's name (real or imaginary):
+    </div>
+    
+    <input id="name-input"/>
+    <button id="name-submit" onclick="updateName()">
+      Submit
+    </button>
+
+
+    <div id="type-label">
+      Enter the type of pet you have:
+    </div>
+    
+    <input id="type-input"/>
+    <button id="type-submit" onclick="updateType()">
+      Submit
+    </button>
+    <br>
+    <hr>
+    <br>
+    <br>
+    
+      <!-- </div> -->
+
+
+<script>
+
+// in below line of code, try removing the slashes, saving and refreshing your page
+// once you have tried that, type your own code line to change the color from scratch
+
+//document.getElementById("color-text").style.color = "magenta";
+
+//document.getElementById("color-text").style.color = "blue";
+
+//next, let's move our script to proper place
+
+</script>
+
+    <!-- javascript file call-in here -->
+    
+    <script src="main.js"></script>
+
+  </body>
+</html>
