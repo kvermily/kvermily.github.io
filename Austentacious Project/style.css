@@ -1,13 +1,12 @@
 /* header */
 nav{
+  color: #EAE5E2;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #577381;
-  color: #e6e6e6;
-  padding-inline-start: 10px;
-  margin-top:-40px;
-}
-.header-right{
-  text-align: right;
-  padding-inline-end: 10px;
+  position: sticky;
+  border:0px;
+  top: 0;
+  width: 100%;
 }
 
 /* body */
@@ -16,40 +15,68 @@ body{
   margin:0;
   padding:0;
   border:0;
-  background-image:url("landingpagebkgd.png");
+  background-image: url("./images/landingpagebkgd.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-/* headings */
+/* logo */
 h1{
   font-size: 36pt;
-  font-family: serif}
+  font-family: serif;
+  display:inline-flex;
+  overflow:hidden;
+  padding: 5px;
+  margin: 0;
+}
+
+/* block quote */
 h2{
   font-size: 36pt;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  display: inline-flex;
+  padding: 0;
+  margin: 5px;
 }
+
 /* container */
 .container{
   background-color: rgba(230,230,230,.9);
-  width: 30%;
+  min-width: 40%;
+  min-height: 60%;
   margin-right: 15%;
-  margin-left: 60%;
+  margin-left: 50%;
+  margin-top: 2%;
+  padding: 5px;
+  border:0;
 }
+
 /* submit group*/
 .submit-group{
   margin: auto;
 }
 
+/* unordered list */
+ul.header-footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* list item */
+li{
+  display: inline-block;
+  padding: 10px;
+}
 /* footer */
 footer{
     color: #EAE5E2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #577381;
-    padding-inline-start: 10px;
-}
-    .footer-right{
-  text-align: right;
-  padding-inline-end: 10px;
-}
+    position: fixed;
+    left:0%;
+    bottom:0%;
+    width: 100%;
+  }
