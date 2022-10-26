@@ -1,9 +1,9 @@
 /* header */
-header{
+nav{
   background-color: #577381;
   color: #e6e6e6;
   padding-inline-start: 10px;
-  margin-top:-33px;
+  margin-top:-40px;
 }
 .header-right{
   text-align: right;
@@ -16,8 +16,12 @@ body{
   margin:0;
   padding:0;
   border:0;
-  background-image:url('../images/landing_page_bkgd.svg');
+  background-image:url(https://drive.google.com/file/d/16S3aLZdQ9exkPVND-ccfk5kLo4ymvm2L/view);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 /* headings */
 h1{
   font-size: 36pt;
