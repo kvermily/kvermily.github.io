@@ -6,6 +6,7 @@ nav{
   border:0;
   top: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 /* body */
@@ -87,20 +88,33 @@ footer{
   }
 
   /*ABOUT PAGE FORMATTING*/
-  .column {
+  .column-left {
     float:left;
-    width: 50%;
-    background-color: rgba(230,230,230,.9);
-    background-repeat: no-repeat;
-    height: 100%;
+    width: 55%;
   }
+  
+  .column-right {
+      float:right;
+      width: 45%;
+      background-color: rgba(230, 230, 230, 0.9);
+  }
+   /* Clear floats after the columns */
+   .row::after {
+    content: "";
+    display: table;
+    clear: right;
+  }
+
   .text-container {
-    padding:1px;
-    margin:10px;
+    padding:10px;
+    margin:15px;
   }
-  /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: 0;
+    object-fit: fill;
+    position: relative;
+    overflow: hidden;
+  }
