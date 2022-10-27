@@ -3,7 +3,7 @@ nav{
   color: #EAE5E2;
   background-color: #577381;
   position: fixed-top;
-  border:0px;
+  border:0;
   top: 0;
   width: 100%;
 }
@@ -12,23 +12,17 @@ nav{
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin:0;
-  padding:0;
-  border:0;
-  background-image: url("./images/landingpagebkgd.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 /* logo */
 .logo{
+  color: #EAE5E2;
   font-size: 36pt;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  display:inline-block;
   overflow:hidden;
   position:relative;
   padding: 5px;
   margin: 0;
+  text-decoration: none;
 }
 
 /* navigation bar links */
@@ -42,14 +36,14 @@ body{
 
 /* block quote */
 h2{
-  font-size: 36pt;
+  font-size: 32pt;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: inline-block;
   padding: 0;
   margin: 5px;
 }
 
-/* container */
+/* Home Page Container */
 .container{
   background-color: rgba(230,230,230,.9);
   min-width: 40%;
@@ -57,7 +51,7 @@ h2{
   margin-right: 15%;
   margin-left: 50%;
   margin-top: 2%;
-  padding: 5px;
+  padding: 15px;
   border:0;
 }
 
@@ -89,4 +83,24 @@ footer{
     left:0%;
     bottom:0%;
     width: 100%;
+    text-decoration: none;
   }
+
+  /*ABOUT PAGE FORMATTING*/
+  .column {
+    float:left;
+    width: 50%;
+    background-color: rgba(230,230,230,.9);
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .text-container {
+    padding:1px;
+    margin:10px;
+  }
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
