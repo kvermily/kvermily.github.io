@@ -1,17 +1,28 @@
 /* header */
-nav{
-  color: #EAE5E2;
+nav {
   background-color: #577381;
   position: fixed-top;
-  border:0;
-  top: 0;
   width: 100%;
+  right:0%;
   overflow: hidden;
+
+}
+
+a{
+  color: #EAE5E2;
+  text-decoration: none;
+}
+nav a{
+  color: #EAE5E2;
+  font-size: 16px;
+  text-decoration: none;
+
 }
 
 /* body */
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14pt;
   margin:0;
 }
 
@@ -19,47 +30,20 @@ body{
 .logo{
   color: #EAE5E2;
   font-size: 36pt;
-  overflow:hidden;
-  position:relative;
-  padding: 5px;
   margin: 0;
+  padding-left: 2%;
+  padding-right: 5%;
+  display:inline-block;
   text-decoration: none;
 }
 
-/* navigation bar links */
-.nav-bar{
-    color: #EAE5E2;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: right;
-  }
-
 /* block quote */
 h2{
-  font-size: 32pt;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: inline-block;
-  padding: 0;
-  margin: 5px;
+  font-size: 40pt;
+  margin:5px;
 }
 
-/* Home Page Container */
-.container{
-  background-color: rgba(230,230,230,.9);
-  min-width: 40%;
-  min-height: 60%;
-  margin-right: 15%;
-  margin-left: 50%;
-  margin-top: 2%;
-  padding: 15px;
-  border:0;
-}
 
-/* submit group*/
-.submit-group{
-  margin: auto;
-}
 
 /* unordered lists */
 ul.header-footer{
@@ -67,12 +51,14 @@ ul.header-footer{
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-decoration: none;
 }
 
 /* list item */
-li{
+ul li {
   display: inline-block;
   padding: 10px;
+  text-decoration: none;
 }
 /* footer */
 footer{
@@ -87,34 +73,43 @@ footer{
     text-decoration: none;
   }
 
-  /*ABOUT PAGE FORMATTING*/
-  .column-left {
-    float:left;
-    width: 55%;
-  }
-  
-  .column-right {
-      float:right;
-      width: 45%;
-      background-color: rgba(230, 230, 230, 0.9);
-  }
-   /* Clear floats after the columns */
-   .row::after {
-    content: "";
-    display: table;
-    clear: right;
-  }
+/* LANDING PAGE */
+  /* Home Page Container */
+.container{
+  float:right;
+  background-color: rgba(230,230,230,.9);
+  min-width: 40%;
+  min-height: 60%;
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-right:5%;
+  margin-bottom:5%;
+  border:0px;
+}
+/* Form */
+form {
+}
+/* submit group */
+.submit-group{
+  margin: auto;
+}
 
+/* ABOUT PAGE */
+
+/* right column */
+  .column-right {
+      margin-top: 2%;
+      margin-left: 50%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      height: 100%;
+      background-color: rgba(230, 230, 230, 0.9);
+      background-size: fill;
+  }
+/* column text container */
   .text-container {
     padding:10px;
-    margin:15px;
+    margin:5px;
   }
-  img {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    border: 0;
-    object-fit: fill;
-    position: relative;
-    overflow: hidden;
-  }
+
+/* BOOK PAGE */
