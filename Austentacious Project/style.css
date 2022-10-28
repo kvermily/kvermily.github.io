@@ -20,6 +20,7 @@ nav a{
 }
 
 /* body */
+
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14pt;
@@ -86,9 +87,8 @@ footer{
   margin-bottom:5%;
   border:0px;
 }
-/* Form */
-form {
-}
+/* INSERT FORM */
+
 /* submit group */
 .submit-group{
   margin: auto;
@@ -106,10 +106,11 @@ form {
       background-color: rgba(230, 230, 230, 0.9);
       background-size: fill;
   }
+
 /* column text container */
   .text-container {
     padding:10px;
     margin:5px;
   }
 
-/* BOOK PAGE */
+/* BOOK PAGES */
