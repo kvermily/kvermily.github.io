@@ -1,11 +1,10 @@
 /* header */
 nav {
   background-color: #577381;
-  position: fixed-top;
-  width: 100%;
-  right:0%;
-  overflow: hidden;
-
+  height:auto;
+  top:0%;
+  border:0%;
+  margin:auto;
 }
 
 a{
@@ -16,12 +15,11 @@ nav a{
   color: #EAE5E2;
   font-size: 16px;
   text-decoration: none;
-
 }
 
 /* body */
-
 body{
+  position: relative;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14pt;
   margin:0;
@@ -31,10 +29,8 @@ body{
 .logo{
   color: #EAE5E2;
   font-size: 36pt;
-  margin: 0;
   padding-left: 2%;
   padding-right: 5%;
-  display:inline-block;
   text-decoration: none;
 }
 
@@ -45,29 +41,29 @@ h2{
 }
 
 
-
 /* unordered lists */
 ul.header-footer{
   list-style-type: none;
+  overflow: hidden;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   text-decoration: none;
 }
 
 /* list item */
 ul li {
-  display: inline-block;
+  display:inline-block;
   padding: 10px;
   text-decoration: none;
 }
+
 /* footer */
 footer{
     color: #EAE5E2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     background-color: #577381;
-    position: fixed;
+    position:fixed;
     left:0%;
     bottom:0%;
     width: 100%;
@@ -76,17 +72,11 @@ footer{
 
 /* LANDING PAGE */
   /* Home Page Container */
-.container{
-  float:right;
+.sidebar-container{
+  display:flex;
   background-color: rgba(230,230,230,.9);
-  min-width: 40%;
-  min-height: 60%;
-  margin-top: 5%;
-  margin-left: 50%;
-  margin-right:5%;
-  margin-bottom:5%;
-  border:0px;
 }
+
 /* INSERT FORM */
 
 /* submit group */
@@ -98,10 +88,7 @@ footer{
 
 /* right column */
   .column-right {
-      margin-top: 2%;
-      margin-left: 50%;
-      margin-right: 2%;
-      margin-bottom: 2%;
+      display: flex;
       height: 100%;
       background-color: rgba(230, 230, 230, 0.9);
       background-size: fill;
@@ -110,7 +97,6 @@ footer{
 /* column text container */
   .text-container {
     padding:10px;
-    margin:5px;
   }
 
 /* BOOK PAGES */
@@ -122,12 +108,4 @@ footer{
   margin-bottom:2%;
   background-color: rgba(230, 230, 230, 0.9);
   background-size: fill;
-}
-
-.book-cover{
-
-}
-
-.order-button{
-  
 }

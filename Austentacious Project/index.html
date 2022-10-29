@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width , initial-scale="1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet">
+        <script src="./navigation.js"></script>
 	    <meta name="test" content="testing">
         <style>
             html {
@@ -17,37 +18,49 @@
         }
         </style>
         <title>Austentacious | Austen-inspired Pairings</title>
-        <nav>
-            <a class="logo" style="float:inline-start" href="./index.html">Austentacious
-            </a>
-            <a href="./about.html">About</a>
-        </nav>
     </head>
     <body>
-        <div class="container">
-            <div class="text-container">
-            <h2>Find your next Austen-inspired read.</h2>
-            <p>Select your Austen novel from the list and click the "Meet Your Match" button. Get paired with your next read. </p>
-    <div class="container-center">
-    <form>    
-        <select name="austen-novels" id="austen-novels" required="required">
-            <optgroup label="Choose Your Novel">
-                <option value="pride-and-prejudice">Pride & Prejudice</option>
-                <option value="sense-and-sensibility">Sense & Sensibility</option>
-                <option value="persuasion">Persuasion</option>
-        </select>
-    <div class="submit-group">
-            <button type="submit">Make a Date</button>
-    </div>
-</div>
-</div>
-        </form>
-    </div>
+        <header>
+            <nav>
+                <!--ADD IN LOGO IMG-->
+                <ul class="header-footer">
+                    <li><a href="./index.html">Austentacious</a>
+                     </li>
+                    <li style="float:right"><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!--ADD IN BODY CONTAINER-->    
+            <div class="sidebar-container">
+                    <div class="text-container">
+                        <h2>Find your next Austen-inspired read.</h2>
+                    
+                        <section>
+                            <p>Select your Austen novel from the list and click the "Meet Your Match" button. Get paired with your next read. </p>
+                        </section>
+                    
+                        <section>
+                            <form>    
+                                <select name="austen-novels" id="austen-novels" required="required">
+                                    <optgroup label="Choose Your Novel">
+                                        <option value="pride-and-prejudice">Pride & Prejudice</option>
+                                        <option value="sense-and-sensibility">Sense & Sensibility</option>
+                                        <option value="persuasion">Persuasion</option>
+                                </select>
+                            
+                                <div class="submit-group">
+                                    <button type="submit">Make a Date</button>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+    <!--ADD IN BODY CONTAINER CLOSER--> 
+        <footer>
+            <ul class="header-footer">
+                <li>&copy 2022 Katie Vermilyea</li>
+                <li style="float:right">Photo by <a href="https://unsplash.com/photos/RYGrvZWSMNE">rawkkim</a> on <a href="https://unsplash.com/">Unsplash</a></li>
+            </ul>
+        </footer>
     </body>
-    <footer>
-        <ul class="header-footer">
-            <li>&copy 2022 Katie Vermilyea</li>
-            <li style="float:right">Photo by <a href="https://unsplash.com/photos/RYGrvZWSMNE">rawkkim</a> on <a href="https://unsplash.com/">Unsplash</a></li>
-        </ul>
-    </footer>
-    </html>
+ </html>
