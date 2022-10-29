@@ -114,3 +114,20 @@ footer{
   }
 
 /* BOOK PAGES */
+.frame {
+  width: 90%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:2%;
+  background-color: rgba(230, 230, 230, 0.9);
+  background-size: fill;
+}
+
+.book-cover{
+
+}
+
+.order-button{
+  
+}
