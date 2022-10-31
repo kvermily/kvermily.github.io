@@ -1,32 +1,40 @@
-/* header */
-nav {
-  background-color: #577381;
-  height:auto;
-  top:0%;
-  border:0%;
-  margin:auto;
-}
-
-a{
-  color: #EAE5E2;
-  text-decoration: none;
-}
-nav a{
-  color: #EAE5E2;
-  font-size: 20px;
-  text-decoration: none;
-}
-
 /* body */
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 14pt;
+  display: block;
   margin:0;
   padding:0;
 }
 
+/* NAVIGATION BAR */
+nav {
+  display:block;
+  background-color: #577381;
+  height: auto;
+  top:0%;
+  border:0%;
+  margin:auto;
+  list-style:none;
+  padding: .5em;
+}
+
+nav ul{
+  display:flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  justify-content:space-between;
+}
+
+nav a{
+  color: #EAE5E2;
+  font-size: 2;
+  text-decoration: none;
+}
+
+
 /* logo */
-.logo{
+h1{
   color: #EAE5E2;
   font-size: 36pt;
   padding-left: 2%;
@@ -37,49 +45,64 @@ body{
 /* block quote */
 h2{
   font-size: 40pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin:5px;
 }
 
-/* unordered lists */
-ul.header-footer{
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+}
+  /* list item */
+li {
+  display:inline-block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  color: #EAE5E2;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/* FOOTER */
+footer{
+  display:block;
+  position:fixed;
+  margin:auto;
+  width:100%;
+  left: 0;
+  bottom: 0;
+  background-color: #577381;
+  padding:.5em;
+}
+
+footer ul{
+  display:flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding:0;
+  text-align:center;
+  justify-content:space-between;
+  font-size: .5em;
+}
+
+footer a,footer li{
+  color: #EAE5E2;
+  font-size: .5em;
   text-decoration: none;
 }
 
-/* list item */
-ul li {
-  display:inline-block;
-  padding: 10px;
-  text-decoration: none;
-}
-
-/* footer */
-footer{
-    color: #EAE5E2;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
-    background-color: #577381;
-    position:fixed;
-    display: block;
-    margin-top:0%;
-    left:0%;
-    bottom:0;
-    width: 100%;
-    text-decoration: none;
-}
 /* Flex Container */
 .container {
   display:flex;
   border:0;
 }
 
-  .column-left{
+.column-left{
   flex: 1;
 }
 
-  .column-right{
+.column-right{
   flex:1;
 }
 
@@ -89,7 +112,7 @@ form {
   padding: 20px;
   margin: 0 auto;
 }
-.accent{
+.button-accent{
   background-color: #533440;
   color: #EAE5E2;
   border: none;
@@ -123,6 +146,8 @@ form {
   background-color: rgba(230, 230, 230, 0.9);
   background-size: fill;
 }
+
+/*bad code, get rid of this*/
 .book-image{
   height: 266.6px;
   object-fit: cover;
