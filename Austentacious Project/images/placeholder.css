@@ -28,13 +28,3 @@
     justify-content: center;
     margin-top: 20px;
   }
-  button {
-    width: 100px;
-    margin: 0 auto;
-    background-color: #533440;
-    color: #EAE5E2;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-  }

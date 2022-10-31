@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet">
-	    <script src="./navigation.js"></script>
-        <meta name="test" content="testing">
-         <style>
+        <script src="./navigation.js"></script>
+	    <meta name="test" content="testing">
+        <style>
             html {
             background-image: url("./images/pen-background.jpg");
             background-size: cover;
@@ -15,27 +15,41 @@
             position: relative;
             padding:0;
             border:0;
-            }
+        }
         </style>
         <title>Austentacious | Austen-inspired Pairings</title>
-        <nav>
-            <a class="logo" style="float:inline-start" href="./index.html">Austentacious
-            </a>
-            <a class="nav-bar" href="./about.html">About</a>
-        </nav>
     </head>
-    <body>
-        <div class="frame">
-            <div class=".text-container">
-                <p><strong>Unmarriagable</strong> sets Pride and Prejudice in Pakistan.</strong></p>
-            </div>
-            <button href="https://www.worldcat.org/formats-editions/1032354337">Find at your Library</button>
+    <!--HEADER AND NAV BAR-->
+    <header>
+        <nav>
+            <!--ADD IN LOGO IMG-->
+            <ul class="header-footer">
+                <li><a href="./index.html">Austentacious</a>
+                </li>
+                <li style="float:right"><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--CONTENT START-->
+    <div class="frame">
+        <div class="column-left" style="align-items:center">
+            <img class="book-image" src="./images/about.jpg" alt="">
+            <button><a href="https://www.worldcat.org/title/1032354337">Find at Your Library</a></button>
         </div>
-    </body>
-    <footer>
-        <ul class="header-footer">
-            <li>&copy 2022 Katie Vermilyea</li>
-            <li style="float:right">Photo by <a href="https://unsplash.com/photos/DR31squbFoA">Debby Hudson</a> on <a href="https://unsplash.com/">Unsplash</a></li>
-        </ul>
-    </footer>
-    </html>
+        <div class="column-right">
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis. Aliquam nulla facilisi cras fermentum. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Venenatis tellus in metus vulputate eu. Mattis pellentesque id nibh tortor id aliquet. Leo vel orci porta non pulvinar. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Vel pharetra vel turpis nunc eget. Augue ut lectus arcu bibendum at. Senectus et netus et malesuada. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Varius quam quisque id diam vel quam elementum pulvinar. Curabitur gravida arcu ac tortor dignissim. Arcu vitae elementum curabitur vitae nunc sed. Vitae turpis massa sed elementum tempus egestas sed sed risus.</p>
+        </div>
+    </div>
+
+<!--CONTENT END-->
+
+<!--FOOTER **UNCOOPERATIVE**-->    
+<footer>
+    <ul class="header-footer">
+        <li>&copy 2022 Katie Vermilyea</li>
+        <li style="float:right">Photo by <a href="https://unsplash.com/photos/DR31squbFoA">Debby Hudson</a> on <a href="https://unsplash.com/">Unsplash</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

@@ -13,16 +13,16 @@ a{
 }
 nav a{
   color: #EAE5E2;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
 }
 
 /* body */
 body{
-  position: relative;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14pt;
   margin:0;
+  padding:0;
 }
 
 /* logo */
@@ -40,11 +40,9 @@ h2{
   margin:5px;
 }
 
-
 /* unordered lists */
 ul.header-footer{
   list-style-type: none;
-  overflow: hidden;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -64,48 +62,73 @@ footer{
     font-size: 12px;
     background-color: #577381;
     position:fixed;
+    display: block;
+    margin-top:0%;
     left:0%;
-    bottom:0%;
+    bottom:0;
     width: 100%;
     text-decoration: none;
-  }
-
-/* LANDING PAGE */
-  /* Home Page Container */
-.sidebar-container{
+}
+/* Flex Container */
+.container {
   display:flex;
-  background-color: rgba(230,230,230,.9);
+  border:0;
 }
 
-/* INSERT FORM */
+  .column-left{
+  flex: 1;
+}
+
+  .column-right{
+  flex:1;
+}
+
+/* FORM */
+form {
+  border: 0;
+  padding: 20px;
+  margin: 0 auto;
+}
+.accent{
+  background-color: #533440;
+  color: #EAE5E2;
+  border: none;
+  padding: 5px;
+  margin:5px;
+  border-radius: 3px;
+  cursor:pointer;
+}
 
 /* submit group */
 .submit-group{
   margin: auto;
 }
 
-/* ABOUT PAGE */
 
-/* right column */
-  .column-right {
-      display: flex;
-      height: 100%;
-      background-color: rgba(230, 230, 230, 0.9);
-      background-size: fill;
+/* Text Containers w/padding*/
+  .text-container {
+    padding:10px;
   }
 
-/* column text container */
-  .text-container {
+  .text-container-grey{
+    background-color: rgba(230,230,230,.9);
     padding:10px;
   }
 
 /* BOOK PAGES */
 .frame {
-  width: 90%;
-  margin-top: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:2%;
+  display:flex;
+  border:0;
+  margin: 1%;
   background-color: rgba(230, 230, 230, 0.9);
   background-size: fill;
 }
+.book-image{
+  height: 266.6px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+
+
+
