@@ -28,7 +28,6 @@ nav ul{
 
 nav a{
   color: #EAE5E2;
-  font-size: 2;
   text-decoration: none;
 }
 
@@ -36,22 +35,28 @@ nav a{
 /* logo */
 h1{
   color: #EAE5E2;
-  font-size: 36pt;
-  padding-left: 2%;
-  padding-right: 5%;
   text-decoration: none;
 }
 
-/* block quote */
 h2{
-  font-size: 40pt;
+  font-size:3.5em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin:5px;
 }
 
-p{
+/* BLOCK QUOTE */
+#quote {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:1px;
+  padding:0;
+}
+
+p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1em;
+  padding:.5em;
 }
   /* list item */
 li {
@@ -59,7 +64,6 @@ li {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1em;
   color: #EAE5E2;
-  font-size: 20px;
   text-decoration: none;
 }
 
@@ -67,9 +71,9 @@ li {
 /* FOOTER */
 footer{
   display:block;
-  position:fixed;
+  position: fixed;
   margin:auto;
-  width:100%;
+  width: 100%;
   left: 0;
   bottom: 0;
   background-color: #577381;
@@ -81,7 +85,7 @@ footer ul{
   list-style-type: none;
   margin: 0;
   padding:0;
-  text-align:center;
+  text-align:justify;
   justify-content:space-between;
   font-size: .5em;
 }
@@ -99,11 +103,43 @@ footer a,footer li{
 }
 
 .column-left{
+  position:relative;
   flex: 1;
 }
 
 .column-right{
+  position:relative;
   flex:1;
+}
+
+/* Block Container */
+.block-container{
+  display:block;
+  border:0;
+  margin: 1%;
+}
+
+
+/*Flex Container Image and Comment*/
+.image-and-content{
+display: flex;
+flex-direction: row;
+flex-wrap:nowrap;
+justify-content: start space-around;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+figcaption {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .5em;
+  text-decoration: none;
 }
 
 /* FORM */
@@ -112,48 +148,64 @@ form {
   padding: 20px;
   margin: 0 auto;
 }
-.button-accent{
+#accent{
   background-color: #533440;
   color: #EAE5E2;
   border: none;
-  padding: 5px;
-  margin:5px;
+  padding: 3px;
+  margin:1px;
   border-radius: 3px;
   cursor:pointer;
+  text-decoration: none;
+  font-size: .8em;
 }
 
-/* submit group */
-.submit-group{
-  margin: auto;
+/*TABLE */
+table {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: space-between;
+  padding:1px;
+  width: 100%;
 }
 
+tr, td{
+  text-align:left;
+  border-collapse: collapse;
+}
 
 /* Text Containers w/padding*/
   .text-container {
+    display:block;
     padding:10px;
   }
 
   .text-container-grey{
+    display:block;
     background-color: rgba(230,230,230,.9);
     padding:10px;
   }
 
 /* BOOK PAGES */
 .frame {
-  display:flex;
+  display:block;
   border:0;
   margin: 1%;
   background-color: rgba(230, 230, 230, 0.9);
   background-size: fill;
 }
 
-/*bad code, get rid of this*/
 .book-image{
   height: 266.6px;
   object-fit: cover;
   padding: 10px;
 }
 
+.book-rec{
+display: flex;
+flex-direction:row-reverse;
+flex-wrap:no-wrap;
+justify-content: start space-around;
+}
 
 
 
