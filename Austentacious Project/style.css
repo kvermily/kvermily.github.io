@@ -22,8 +22,7 @@ nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align:center;
-  justify-content:space-between;
+  justify-content: end;
 }
 
 nav a{
@@ -62,9 +61,10 @@ p {
 li {
   display:inline-block;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #EAE5E2;
   text-decoration: none;
+  padding: 5px;
 }
 
 
