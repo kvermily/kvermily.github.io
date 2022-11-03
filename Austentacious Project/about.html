@@ -3,13 +3,15 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet">
-        <script src="./navigation.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
         <meta name="test" content="testing">
         <style>
              html {
-                background-color:#EAE5E2;
+                background-color:#f7f5f3;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
@@ -24,6 +26,7 @@
  <!--HEADER AND NAV BAR-->
         <header>
             <nav>
+                <span id="logo">Austentacious</span>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./about.html">About</a></li>
@@ -31,23 +34,62 @@
             </nav>
         </header>
   <!--CONTENT START-->
-  <section class="block-container">
+  <section class="block-container" style="background-color: rgba(230,230,230,.9)">
         <div class="image-and-content">
             <figure>
                 <img src="./images/about.jpg" alt="woman reading book">
                 <figcaption>Photo by <a href="https://unsplash.com/photos/MqKDzLsPVQM">Dexter Fernandes</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
             </figure>
             <!--RIGHT COLUMN-->
-                <div class="text-container" style="margin: 1%">
+                <div class="text-container">
                         <p id="quote">"I declare after all there is no enjoyment like reading!"</p> 
                         <p style="text-align: right;">-Pride and Prejudice</p>
-                        <p>It is a truth universally acknowledge that a single reader, having recently finished a book, must be in want of another. But what to do when you've worked your way through Jane Austen's entire catalogue? </p>
+                        <p>It is a truth universally acknowledged that a single reader, having recently finished a book, must be in want of another. But what to do when you've worked your way through Jane Austen's entire catalogue? </p>
                         <p><strong>Austentatious</strong> was created to be your literary matchmaker to novels inspired by Jane Austen's classics. Select a Jane Austen novel and we'll pair you with your next great read.</p>
                 </div>
             </div>
+            <hr>
+            <div class="text-container">
+            <h3>Jane Austen Publication History</h3>
+            <table>
+                <tr>
+                <th>Novel</th>
+                <th>Publication Year</th>
+                </tr>
+                <tr>
+                    <td>Sense & Sensibility</td>
+                    <td>1811</td>
+                </tr>
+                <tr>
+                    <td>Pride & Prejudice</td>
+                    <td>1813</td>
+                </tr>
+                <tr>
+                    <td>Mansfield Park</td>
+                    <td>1814</td>
+                </tr>
+                <tr>
+                    <td>Emma</td>
+                    <td>1815</td>
+                </tr>
+                <tr>
+                    <td>Northanger Abbey</td>
+                    <td>1818</td>
+                </tr>
+                <tr>
+                    <td>Persuasion</td>
+                    <td>1818</td>
+                </tr>
+                <tr>
+                    <td>Lady Susan</td>
+                    <td>1871</td>
+                </tr>
+            </table>
+            </div>
     </section>
-    <!--CONTENT END-->
-<!--FOOTER **UNCOOPERATIVE**-->    
+   
+        <!--CONTENT END-->
+<!--FOOTER-->    
      <footer>
                 <ul class="header-footer">
                     <li>&copy 2022 Katie Vermilyea</li>

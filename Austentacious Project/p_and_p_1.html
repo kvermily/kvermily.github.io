@@ -4,17 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet">
-        <script src="./navigation.js"></script>
-	    <meta name="test" content="testing">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+        <meta name="test" content="testing">
         <style>
             html {
-            background-image: url("./images/pen-background.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            position: relative;
-            padding:0;
-            border:0;
+                background-color:#f7f5f3;
+                background-size: fill;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                position: relative;
+                padding:0;
+                border:0;
         }
         </style>
         <title>Unmarriageble | Austentacious</title>
@@ -22,6 +24,7 @@
     <!--HEADER AND NAV BAR-->
     <header>
         <nav>
+            <span id="logo">Austentacious</span>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
@@ -33,25 +36,28 @@
 <!--Change layout to match ABOUT page-->
     <section class="frame">
             <div class="book-rec">
-                <figure>
+                <figure style="object-position:center;">
                     <!--make image size larger-->
-                    <img src="./images/unmarriageable_cover.jpeg" class="book-image" alt="woman reading book">
-                    <figcaption><a id="accent" href="https://worldcat.org/en/title/1081302677">Borrow From Your Library</a></figcaption>
+                    <img src="./images/unmarriageable_cover.jpeg" class="book-image" alt="unmarriageable book cover">
+                    <figcaption>Image Courtesy of </figcaption>
+                    <a id="accent" href="https://worldcat.org/en/title/1081302677">Borrow From Your Library</a>
                 </figure>
-                <!--Remove link from figcaption, change figcaption id for greater callout?-->
                 <!--LEFT COLUMN-->
                     <div class="text-container" style="margin: 1%">
-                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>
+                            <p>You've been matched with:</p>
+                            <p id="booktitle">Unmarriageable</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>
-                    <!--Add link button to borrow from library-->
-                        </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>    
+                        <!--PLACEHOLDER FOR JS CODE FOR BUTTON ROUTING-->
+                            <button>It's a Match!</button> <button>Find Me Another</button></p>
+                    </div>
                 </div>
         </section>
 
 <!--CONTENT END-->
 
-<!--FOOTER **UNCOOPERATIVE**-->    
-<footer>
+<!--FOOTER-->    
+<footer style="position: fixed; width: 100%;">
     <ul class="header-footer">
         <li>&copy 2022 Katie Vermilyea</li>
         <li style="float:right">Photo by <a href="https://unsplash.com/photos/DR31squbFoA">Debby Hudson</a> on <a href="https://unsplash.com/">Unsplash</a></li>
