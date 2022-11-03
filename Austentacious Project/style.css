@@ -31,6 +31,15 @@ nav ul{
   vertical-align: bottom;
 }
 
+nav li {
+    display:inline-block;
+    font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    color: #f7f5f3;
+    text-decoration: none;
+    padding: 5px;
+  }
+
 nav a{
   color: #f7f5f3;
   text-decoration: none;
@@ -52,41 +61,47 @@ nav a{
 
 h2{
   font-size:3em;
-  font-weight: 600;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin:5px;
-;
 }
+
+h3{
+  font-size:1.5em;
+  font-weight: 400;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:5px;
+}
+
 #booktitle{
   text-decoration: none;
-  font-family: "Spectral",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 200;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2em;
 }
 
 /* BLOCK QUOTE */
 #quote {
   font-size: 2.5em;
-  font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin:1px;
+  font-weight:300;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:10px;
   padding:0;
 }
 
+#quote
+
 p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1em;
   padding:.5em;
 }
-  /* list item */
-li {
-  display:inline-block;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.2em;
-  color: #f7f5f3;
-  text-decoration: none;
-  padding: 5px;
-}
 
+ol {
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  padding:.5em;
+}
 
 /* FOOTER */
 footer{
@@ -113,6 +128,13 @@ footer a,footer li{
   text-decoration: none;
 }
 
+footer a:hover{
+  background-color: #f7f5f3;
+  color: rgb(87,115, 129);
+  border-radius: 2px;
+  padding:2px;
+ }
+
 /* Flex Container */
 .container {
   display:flex;
@@ -130,7 +152,7 @@ footer a,footer li{
 
 
 /*Flex Container Image and Comment*/
-.image-and-content{
+.image-container{
 display: flex;
 flex-direction: row;
 flex-wrap:nowrap;
@@ -145,10 +167,19 @@ figure {
   margin-inline-end: 40px;
 }
 
+img {
+  max-width: 100%;
+  height:auto;
+}
+
 figcaption {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: .5em;
   text-decoration: none;
+}
+
+figcaption a{
+  color: rgb(87,115, 129);
 }
 
 /* FORM */
@@ -157,10 +188,12 @@ form {
   padding: 20px;
   margin: 0 auto;
 }
+
 #accent{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #533440;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(83, 52, 64, .9);
   color: #f7f5f3;
+  font-size: 1.2em;
   border: none;
   padding: 3px;
   margin:1px;
@@ -172,20 +205,21 @@ form {
 
 /*TABLE */
 table {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  justify-content: space-between;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  table-layout: fixed;
   padding:1px;
+  background-color:rgba(83, 52, 64, .5)
 }
 
 tr, td{
-  text-align:left;
-  border-collapse: collapse;
+  text-align: left;
+  border:1px;
 }
 
 
 /*Line Break */
 hr{
-  color: #533440;
+  border-top: 1px, solid, #533440;
   width: 95%;
 }
 
@@ -194,6 +228,7 @@ hr{
   .text-container {
     display:block;
     padding:10px;
+    flex:1;
   }
 
   .text-container-grey{
@@ -222,7 +257,7 @@ hr{
 .book-rec{
 display: flex;
 flex-direction:row-reverse;
-flex-wrap:no-wrap;
+flex-wrap:wrap;
 justify-content: start space-around;
 }
 
