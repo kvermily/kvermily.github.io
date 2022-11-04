@@ -51,7 +51,7 @@ nav a{
   padding:2px;
  }
 
- /* logo */
+ /* LOGO */
 #logo{
   color: #f7f5f3;
   text-decoration: none;
@@ -70,17 +70,19 @@ h3{
   font-size:1.5em;
   font-weight: 400;
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin:5px;
+  margin:10px;
 }
 
+/* BOOK TITLES QUOTES AND CITATIONS */
 #booktitle{
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 300;
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2em;
+  margin:10px;
+  padding:0;
 }
 
-/* BLOCK QUOTE */
 #quote {
   font-size: 2.5em;
   font-weight:300;
@@ -89,7 +91,15 @@ h3{
   padding:0;
 }
 
-#quote
+#author, #citation{
+  text-decoration: none;
+  font-weight: 200;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  padding:0em;
+  margin:10px;
+}
+
 
 p {
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -97,15 +107,11 @@ p {
   padding:.5em;
 }
 
-ol {
-  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1em;
-  padding:.5em;
-}
 
 /* FOOTER */
 footer{
   display:block;
+  height: auto;
   left: 0;
   bottom: 0;
   padding:.1em;
@@ -113,26 +119,33 @@ footer{
 }
 
 footer ul{
-  display:flex;
   list-style-type: none;
   margin: 0;
   padding:0;
   text-align:justify;
-  justify-content:space-between;
+  justify-content: space-between;
   font-size: .6em;
+  line-height: 2em;
+  margin: 2px;
+  padding:3px;
 }
+
 
 footer a,footer li{
   color:  #f7f5f3;
   font-size: 1em;
+  text-decoration: none;
+  display:inline-block;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .6em;
+  color: #f7f5f3;
   text-decoration: none;
 }
 
 footer a:hover{
   background-color: #f7f5f3;
   color: rgb(87,115, 129);
-  border-radius: 2px;
-  padding:2px;
+  border-radius: 1px;
  }
 
 /* Flex Container */
@@ -196,7 +209,7 @@ form {
   font-size: 1.2em;
   border: none;
   padding: 3px;
-  margin:1px;
+  margin: 2px;
   border-radius: 3px;
   cursor:pointer;
   text-decoration: none;
@@ -207,15 +220,30 @@ form {
 table {
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   table-layout: fixed;
-  padding:1px;
-  background-color:rgba(83, 52, 64, .5)
+  border-collapse: collapse;
+  margin:15px;
+}
+th{
+  background-color:rgba(83, 52, 64, .8);
+  color:#f7f5f3;
+  padding:.2em;
+  border: 1px solid #f7f5f3;
+  padding: 8px;
 }
 
-tr, td{
-  text-align: left;
-  border:1px;
+#year{
+  text-align: center;
 }
 
+tr:nth-child(odd){
+  background-color:rgba(83, 52, 64, .2);
+  border: 1px solid #f7f5f3;
+}
+
+td{
+  border: 1px solid #f7f5f3;
+  padding: 3px;
+}
 
 /*Line Break */
 hr{
