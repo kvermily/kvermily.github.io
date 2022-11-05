@@ -16,9 +16,3 @@ var button=document.getElementById("home");
 function home() {
    location.href="./index.html";
 }
-
-
-var button=document.getElementById("borrow");
-function findlibrary(){
-    location.href=document.getElementById(`borrow`).value;
-}
