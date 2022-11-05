@@ -236,6 +236,7 @@ button:hover, button a:hover {
   background-color: #f7f5f3;
   color: #533440cc;
   border-radius: 3px;
+  font-weight:bold;
 }
 
 .center {
