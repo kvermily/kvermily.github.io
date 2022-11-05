@@ -13,7 +13,7 @@
         <style>
             html{
                 background-image: url(./images/landingpagebkgd.png);
-                background-position: cover;
+                background-attachment:fixed;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -39,15 +39,15 @@
                     <div class="text-container-grey" style="margin-top:5%; margin-left:48%;">
                         <h2>Find your next Austen-inspired read.</h2>
                             <ol class="liststyle">
-                                <li>Select your Austen novel from the list.</li>
-                                <li>Click the "Meet Your Match" button to be paired with your next read.</li>
+                                <li>Select an Austen novel from the list.</li>
+                                <li>Click the <strong>Meet Your Match</strong> button to be paired with your next read.</li>
                             </ol>       
                         <!--NOVEL PICKLIST AND ROUTING BUTTON-->    
                         <div class="text-container center">
                                     <select id="novels">
                                         <option value="./p_and_p_1.html">Pride & Prejudice</option>
-                                        <option value="accent" href="/s_and_s_1">Sense & Sensibility</option>
-                                        <option value="accent" href="./p_and_p_1">Persuasion</option>
+                                        <option value="./s_and_s_1">Sense & Sensibility</option>
+                                        <option value="./p_and_p_1">Persuasion</option>
                                     </select>
                                     <button id="router" onclick="routing()">Meet Your Match</button>
                             </div> 
