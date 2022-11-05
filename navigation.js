@@ -18,3 +18,6 @@ function home() {
 }
 
 
+var button=document.getElementById("borrow");
+function findlibrary(){
+    location.href=document.getElementByTag(`img`).value
