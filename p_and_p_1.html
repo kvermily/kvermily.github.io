@@ -24,7 +24,6 @@
     </head>
     <!--HEADER AND NAV BAR-->
 <body>
-    <script src="./navigation.js"></script>
     <header>
         <nav>
             <span id="logo">Austentatious</span>
@@ -37,15 +36,12 @@
 <!--CONTENT START-->
 <!--Change layout to match ABOUT page-->
     <section class="frame">
-        <div class="image-container" style="flex-direction:row-reverse;">
-            <div class="text-container">
-                    <!--make image size larger-->
-                    <figure class="book-image" style="position: center;">
+        <div class="image-container" style="flex-direction:row-reverse">
+            <div class="text-container">          
                         <img src="./images/unmarriageable_cover.jpeg" alt="unmarriageable book cover">
-                        <figcaption>Image Courtesy of </figcaption>
-                    </figure>
-                        <button onclick="window.location.href='https://www.worldcat.org/title/1032354337'">Borrow From Your Library</button> 
-            </div>
+                        <figcaption>Image Courtesy of PLACEHOLDER</figcaption>
+                        <button id="borrow" value="https://www.worldcat.org/title/1032354337" onclick="findlibrary()">Borrow From Your Library</button>
+                 </div>          
                 <!--LEFT COLUMN-->
                     <div class="text-container" style="margin:1%;">
                             <p>You've been matched with:</p>
@@ -57,7 +53,8 @@
                         <!--PLACEHOLDER FOR JS CODE FOR BUTTON ROUTING-->
                             <button id="match" onclick="hea()">It's a Match!</button> 
                             <button id="home" onclick="home()">Find Me Another</button>
-                    </div>
+                        
+                     </div>
                 </div>
         </section>
 
