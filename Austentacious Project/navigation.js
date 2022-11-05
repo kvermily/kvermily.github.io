@@ -1,4 +1,20 @@
-<script>
+var button=document.getElementById("router");
+function routing(){
+    location.href=document.getElementById(`novels`).value;
 
-    
-</script>
+}
+
+
+var button=document.getElementById("match");
+function hea() {
+        alert("Yay! We love a happily ever after.")
+
+}
+
+
+var button=document.getElementById("home");
+function home() {
+   location.href="./index.html";
+}
+
+

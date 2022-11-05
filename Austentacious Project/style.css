@@ -91,6 +91,16 @@ h3{
   padding:0;
 }
 
+#quotesmall {
+  font-size: 1.2em;
+  font-weight:300;
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top:25px;
+  margin: 15px;
+  padding:0;
+}
+
+
 #author, #citation{
   text-decoration: none;
   font-weight: 200;
@@ -110,12 +120,12 @@ p {
 
 /* FOOTER */
 footer{
+  background-color: rgba(87,115, 129, 0.8);
   display:block;
   height: auto;
   left: 0;
   bottom: 0;
   padding:.1em;
-  background-color: rgba(87,115, 129, 0.8);
 }
 
 footer ul{
@@ -202,13 +212,15 @@ form {
   margin: 0 auto;
 }
 
-#accent{
+button{
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgba(83, 52, 64, .9);
+  background-color: #533440cc;
   color: #f7f5f3;
-  font-size: 1.2em;
+  font-size: 1.5em;
   border: none;
-  padding: 3px;
+  padding:3px;
+  padding-left: 6px;
+  padding-right:6px;
   margin: 2px;
   border-radius: 3px;
   cursor:pointer;
@@ -216,15 +228,30 @@ form {
   font-size: .8em;
 }
 
+button a{
+  text-decoration: none;
+  color: #f7f5f3;
+}
+
+button:hover, button a:hover {
+  background-color: #f7f5f3;
+  color: #533440cc;
+  border-radius: 3px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right:auto;
+}
+
 /*TABLE */
 table {
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  table-layout: fixed;
   border-collapse: collapse;
   margin:15px;
 }
 th{
-  background-color:rgba(83, 52, 64, .8);
+  background-color: #533440cc;
   color:#f7f5f3;
   padding:.2em;
   border: 1px solid #f7f5f3;
@@ -236,7 +263,7 @@ th{
 }
 
 tr:nth-child(odd){
-  background-color:rgba(83, 52, 64, .2);
+  background-color:#53344033;
   border: 1px solid #f7f5f3;
 }
 
@@ -289,5 +316,22 @@ flex-wrap:wrap;
 justify-content: start space-around;
 }
 
+/* Standard UL and OL Formatting */
+.liststyle{
+  font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right:1em;
+  line-height: 1.2em;
+  margin:.5em;
+  justify-content: space-around;
+}
 
+.liststyle li{
+  margin:.3em;
+}
 
+.liststyle a{
+  color: rgb(87,115, 129);
+  text-decoration: none;
+}

@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./navigation.js"></script>
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +24,8 @@
         <title>Unmarriageble | Austentacious</title>
     </head>
     <!--HEADER AND NAV BAR-->
+<body>
+    <script src="./navigation.js"></script>
     <header>
         <nav>
             <span id="logo">Austentacious</span>
@@ -37,21 +40,23 @@
 <!--Change layout to match ABOUT page-->
     <section class="frame">
             <div class="book-rec">
-                <figure style="object-position:center;">
+                <figure >
                     <!--make image size larger-->
                     <img src="./images/unmarriageable_cover.jpeg" class="book-image" alt="unmarriageable book cover">
                     <figcaption>Image Courtesy of </figcaption>
-                    <a id="accent" href="https://worldcat.org/en/title/1081302677">Borrow From Your Library</a>
+                    <button id="accent"><a target="_blank" href="https://worldcat.org/en/title/1081302677">Borrow From Your Library</a></button> 
                 </figure>
                 <!--LEFT COLUMN-->
                     <div class="text-container" style="margin: 1%">
                             <p>You've been matched with:</p>
                             <p id="booktitle">Unmarriageable</p>
                             <p id="author">Soniah Kamal</p>
+                            <p id="quotesmall">“It was a truth universally acknowledged, Alys suddenly thought with a smile, that people enter our lives in order to recommend reads.”</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>    
                         <!--PLACEHOLDER FOR JS CODE FOR BUTTON ROUTING-->
-                            <button>It's a Match!</button> <button>Find Me Another</button></p>
+                            <button id="match accent" onclick="hea()">It's a Match!</button> 
+                            <button id="home accent" onclick="home()">Find Me Another</button>
                     </div>
                 </div>
         </section>
