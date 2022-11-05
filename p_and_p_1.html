@@ -37,15 +37,17 @@
 <!--CONTENT START-->
 <!--Change layout to match ABOUT page-->
     <section class="frame">
-            <div class="book-rec">
-                <figure >
+        <div class="image-container" style="flex-direction:row-reverse;">
+            <div class="text-container" style="margin:auto; padding:auto;">
                     <!--make image size larger-->
-                    <img src="./images/unmarriageable_cover.jpeg" class="book-image" alt="unmarriageable book cover" value=url("https://worldcat.org/en/title/1081302677)">
-                    <figcaption>Image Courtesy of </figcaption>
-                </figure>
-                <button id="borrow" onclick="findlibrary()">Borrow From Your Library</button> 
+                    <figure class="book-image" >
+                        <img src="./images/unmarriageable_cover.jpeg" alt="unmarriageable book cover">
+                        <figcaption>Image Courtesy of </figcaption>
+                    </figure>
+                        <button id="borrow" value=https://worldcat.org/en/title/1081302677 onclick="findlibrary()">Borrow From Your Library</button> 
+            </div>
                 <!--LEFT COLUMN-->
-                    <div class="text-container" style="margin: 1%">
+                    <div class="text-container" style="margin: 1%;">
                             <p>You've been matched with:</p>
                             <p id="booktitle">Unmarriageable</p>
                             <p id="author">Soniah Kamal</p>

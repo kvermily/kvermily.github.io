@@ -304,14 +304,12 @@ hr{
 
 
 .book-image{
-  height: 266.6px;
   object-fit: cover;
-  padding: 10px;
 }
 
 .book-rec{
 display: flex;
-flex-direction:row-reverse;
+display:column;
 flex-wrap:wrap;
 }
 
