@@ -362,7 +362,6 @@ hr{
 
 .book-rec-container{
 display: block;
-display:column;
 flex-wrap:wrap;
 text-align: center;
 object-fit: contain;
