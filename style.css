@@ -275,7 +275,7 @@ td{
 
 /*Line Break */
 hr{
-  border-top: 1px solid #533440;
+  border-top: .5px solid #533440cc;
   width: 95%;
 }
 
