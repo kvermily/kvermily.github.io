@@ -235,12 +235,13 @@ img {
 
 figcaption {
   font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: .5em;
+  font-size: .7em;
   text-decoration: none;
 }
 
 figcaption a{
   color: rgb(87,115, 129);
+  text-decoration: none;
 }
 
 /* FORM */
@@ -338,6 +339,8 @@ hr{
   display:block;
   background-color: rgba(230,230,230,.9);
   padding:15px;
+  padding-top:25px;
+  padding-bottom:25px;
 }
 
 /* BOOK PAGES */
