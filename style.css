@@ -358,7 +358,7 @@ flex-wrap:wrap;
 text-align: center;
 object-fit: contain;
 padding:10px;
-flex:.5;
+flex:1;
 }
 
 /* Standard UL and OL Formatting */
