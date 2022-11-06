@@ -334,6 +334,12 @@ hr{
     padding:10px;
   }
 
+.text-container-404{
+  display:block;
+  background-color: rgba(230,230,230,.9);
+  padding:15px;
+}
+
 /* BOOK PAGES */
 .frame {
   display:block;

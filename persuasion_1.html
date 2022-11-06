@@ -26,8 +26,25 @@
 <!--CONTENT START-->
     <section class="frame">
         <div class="image-container" style="flex-direction:row-reverse">
-            <img src="./images/404error.gif" alt="woman sighing in frustration">
-        </div>
+            <div class="book-rec-container">          
+                        <img class="book-image" src="./images/book-placeholder-blue.jpg" alt="unmarriageable book cover">
+                        <figcaption>school book by Umer Younas from <a href="https://thenounproject.com/browse/icons/term/school-book/" target="_blank" title="school book Icons">Noun Project</a></figcaption>
+                        <button style="margin-left: auto;margin-right: auto;" id="borrow" value="https://www.worldcat.org/title/1032354337" onclick="findlibrary()">Borrow From Your Library</button>
+                 </div>          
+                <!--LEFT COLUMN-->
+                    <div class="text-container" style="margin:1%;">
+                            <p>You've been matched with:</p>
+                            <p id="booktitle"><a href="https://worldcat.org/en/title/1001868896">The Cost of Living: A Working Autobiography</a></p>
+                            <p id="author">Deborah Levy</p>
+                            <p id="quotesmall">"Life falls apart. We try to get a grip and hold it together. And then we realize we don't want to hold it together."</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed vulputate odio ut enim blandit.</p>    
+                            <hr>
+                            <p>How did our Matchmaker do?</p>
+                            <button id="match" onclick="hea()">💕 It's a Match! </button> 
+                            <button id="home" onclick="home()">🔍 Find Me Another</button>
+                     </div>
+                </div>
         </section>
 
 <!--CONTENT END-->
